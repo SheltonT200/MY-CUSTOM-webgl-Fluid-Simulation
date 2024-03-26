@@ -1,6 +1,6 @@
 # WebGL Fluid Simulation
 
-[Play here](https://paveldogreat.github.io/WebGL-Fluid-Simulation/)
+[Play here](sheltont200.github.io/MY-CUSTOM-webgl-Fluid-Simulation/)
 
 <img src="/screenshot.jpg?raw=true" width="880">
 
