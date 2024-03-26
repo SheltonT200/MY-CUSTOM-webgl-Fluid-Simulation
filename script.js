@@ -236,7 +236,7 @@ function startGUI () {
     captureFolder.add(config, 'TRANSPARENT').name('transparent');
     captureFolder.add({ fun: captureScreenshot }, 'fun').name('take screenshot');
 
-    let github = gui.add({ fun : () => {
+    /*let github = gui.add({ fun : () => {
         window.open('https://github.com/PavelDoGreat/WebGL-Fluid-Simulation');
         ga('send', 'event', 'link button', 'github');
     } }, 'fun').name('Github');
@@ -275,7 +275,7 @@ function startGUI () {
     let appIcon = document.createElement('span');
     app.domElement.parentElement.appendChild(appIcon);
     appIcon.className = 'icon app';
-
+*/
     if (isMobile())
         gui.close();
 }
