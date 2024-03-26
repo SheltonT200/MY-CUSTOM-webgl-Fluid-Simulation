@@ -207,8 +207,8 @@ function supportRenderTextureFormat (gl, internalFormat, format, type) {
 
 //function startGUI () {
     var gui = new lil.GUI({ width: 300 });
-    gui.add(config, 'DYE_RESOLUTION', { 'high': 1024, 'medium': 512, 'low': 256, 'very low': 128 }).name('quality').onFinishChange(initFramebuffers);
-    gui.add(config, 'SIM_RESOLUTION', { '32': 32, '64': 64, '128': 128, '256': 256 }).name('sim resolution').onFinishChange(initFramebuffers);
+    gui.add(config, 'DYE_RESOLUTION', { '4k': 4096,'high': 1024, 'medium': 512, 'low': 256, 'very low': 128 }).name('quality').onFinishChange(initFramebuffers);
+    gui.add(config, 'SIM_RESOLUTION', { '32': 32, '64': 64, '128': 128, '256': 256,'512': 512,'1024': 1024 }).name('sim resolution').onFinishChange(initFramebuffers);
     gui.add(config, 'DENSITY_DISSIPATION', 0, 4.0).name('density diffusion');
     gui.add(config, 'VELOCITY_DISSIPATION', 0, 4.0).name('velocity diffusion');
     gui.add(config, 'PRESSURE', 0.0, 1.0).name('pressure');
